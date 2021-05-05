@@ -1,0 +1,68 @@
+.ad-img{
+    width: 100vw;
+    height:100px;
+    /* object-fit: contain; */
+}
+.checkout_container{
+    height: 100%;
+    background-color:#EAEDED !important;
+}
+.checkout{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.checkout_info{
+    padding: 15px 20px 0px 20px;
+    line-height: 15px;
+}
+.info_one{
+    font-size: 14px;
+    font-weight: 600;
+}
+.info_two{
+    font-size: 14px;
+    font-weight: 400;
+}
+.checkout_left{
+    flex:0.7;
+    background-color: white;
+    margin: 0px 20px 0px 0px;
+    padding: 20px;
+}
+.checkout_left_price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout_right{
+    flex:0.3;
+    background-color: white;
+}
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border:1px solid #dddddd;
+}
+.subtotal_order_text{
+    display:flex;
+    margin-bottom: 20px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+.subtotal_gift{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.subtotal_gift input[type="checkbox"]{
+    margin-right: 5px;
+}
+.subtotal_btn{
+    border:none;
+    background-color: #FFD814;
+    border-radius: 5px;
+    padding: 5px 0px;
+}

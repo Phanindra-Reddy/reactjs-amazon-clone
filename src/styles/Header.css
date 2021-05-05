@@ -1,0 +1,115 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131921;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    color:white
+}
+
+.header_logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0px 20px;
+    margin-top:16px;
+    cursor:pointer;
+}
+.header_delivery_option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+    cursor:pointer;
+}
+.header_delivery_top{
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+.header_delivery_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+.header_delivery_search{
+    display: flex;
+    flex:1;
+    align-items: center;
+    border-radius: 24px;
+    margin: 0px 10px;
+}
+
+.header_searchInput{
+    width: 100%;
+    height: 38px;
+    padding: 10px;
+    border: 0;
+    font-family: inherit;
+    outline:none;
+}
+
+.header_searchIcon{
+    padding:5px;
+    height: 38px !important;
+    background-color: #cd9042;
+    cursor: pointer;
+    color: black;
+}
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header_nav_option{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+.header_optionLineTop{
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.header_optionLineBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.header_basket{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.header_basketcount{
+    margin: 0px 10px;
+    font-size: 18px !important;
+    color: #cd9042;
+    list-style: none;
+}
+
